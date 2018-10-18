@@ -1,0 +1,31 @@
+.btn-bs-file{
+    position:relative;
+}
+.btn-bs-file input[type="file"]{
+    position: absolute;
+    top: -9999999;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width:0;
+    height:0;
+    outline: none;
+    cursor: inherit;
+}
+.justify-content-center {
+    text-align: center;
+}
+#main {
+  margin-top:20px;
+  padding: 50px;
+  border: 2px solid #eee;
+}
+#upload-progress ,#image-preview , .alert{
+  display: none;
+}
+#image-preview img {
+  width: 100%;
+  height: auto;
+}
+.alert-primary {
+    background-color: #007bff;
+}
